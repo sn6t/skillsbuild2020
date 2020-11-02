@@ -1,0 +1,107 @@
+
+* { 
+    font-family: 'Bitter','ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','ヒラギノ角ゴ W3', 'メイリオ', system-ui;
+    padding: 0px;
+    margin: 0px;
+    color: #333300;
+}
+header {
+    background-color: rgb(96,81,56);
+    height: 130px;
+    padding: 0px 30px 0px 30px;
+}
+section {
+    background-color: antiquewhite;
+    padding: 0px 30px 0px 30px;
+}
+footer {
+    background-color: rgb(96,81,56);
+    padding: 0px 30px 0px 30px;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-size: 10px;
+}
+h3 {
+    font-size: 22px;
+    padding: 20px 0px 20px 0px;
+}
+
+em {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+hr {
+    border: 1px rgb(96,81,56) dashed;
+    margin: 30px 0px 30px 0px;
+}
+
+
+ul.ul_header li {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+}
+
+ul.ul_header li a {
+    color: #FFFFFF;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+p.about_mission {
+    text-align: center;
+}
+
+div.main_div {
+    width: 900px;
+    padding: 50px 0px 50px 0px;
+}
+
+div.main_contents {
+    padding: 30px 0px 30px 30px;
+}
+
+
+table {
+    width: 700px;
+    margin-left: 40px;
+    border: 1px solid rgb(96,81,56);
+}
+
+th {
+    text-align: center;
+    background-color: rgb(96,81,56);
+    color: #FFFFFF;
+}
+
+tr.menu_tr:nth-child(2n) {
+    background-color: ivory;
+}
+
+td.price {
+    text-align: right;
+}
+div.google_map {
+    text-align: center;
+    padding: 30px 0px 0px 0px;
+}
+
+p.menu_p {
+    margin: 30px 0px 0px 30px;
+}
+
+div.gallery_image {
+    text-align: center;
+}
+
+div.footer_table {
+    padding: 50px 0px 50px 60px;
+    width: 600px;
+}
+tr.footer_tr td {
+    color: #FFFFFF;
+}
