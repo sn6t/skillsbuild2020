@@ -10,15 +10,16 @@
         <script>
             var imgChange = function(param) {
                 var source_src = param.src;
+                var source_alt = param.alt;
                 var target = document.getElementById("gallery_main");
                 target.setAttribute("src",source_src);
+                target.setAttribute("alt",source_alt);
             }
         </script>
     </head>
     <body>
         <header>
-            <h1>S.B.Cafe (エス・ビー・カフェ） - 東京・日本橋箱崎町のテイクアウト専門コーヒーショップ</h1>
-            <img src="./images/cafetitle.png" alt="S.B.Cafe（エス・ビー・カフェ）" width="178" height="76">
+            <h1>S.B.Cafe</h1>
             <ul class="ul_header">
                 <li><a href="#about">About</a></li>
                 <li><a href="#news">News</a></li>
@@ -44,7 +45,7 @@
                 <div class="main_contents">
                     <div>
                         <ul>
-                            <li>2020/12/01: クリスマス限定キャンペーン開始！ドリンクメニューかフードメニューを一点以上ご購入いただいたお客さまに、クーポンをプレゼントします</li>
+                            <li>2020/12/01: クリスマス限定キャンペーン開始！ドリンクメニューかフードメニューを一点以上ご購入いただいたお客さまに、クーポンをプレゼントします。</li>
                             <li>2020/11/01: S.B.Cafeオープニングキャンペーン開始！11月1日から11月7日まで全メニューを500円割引でご提供します。</li>
                             <li>2020/09/01: S.B.Cafeオープニングスタッフ（アルバイト・パート）募集。詳しくは<a href="https://www.yahoo.co.jp/">こちらのリンク</a>をご確認ください。</li>
                         </ul>
