@@ -5,12 +5,6 @@
     padding: 0px;
 }
 
-em {
-    font-size: 20px;
-    font-style: normal;
-    font-weight: bold;
-}
-
 footer {
     background-color: #7B5544; /* coffee */
     padding: 0px 30px 0px 30px;
@@ -24,13 +18,15 @@ header {
 
 h1 {
     color: #FFFFFF; /* white */
-    font-size: 42px;
-    padding: 20px 0px 20px 0px;
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 1.5em;
 }
 
 h3 {
-    font-size: 22px;
-    padding: 20px 0px 20px 0px;
+    font-size: 1.3em;
 }
 
 main {
@@ -45,14 +41,18 @@ section {
 
 table {
     border: 1px solid #7B5544; /* coffee */
-    margin-left: 40px;
-    width: 700px;
 }
 
 th {
     background-color: #7B5544; /* coffee */
     color: #FFFFFF; /* white */
     text-align: center;
+}
+
+.about_em {
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: bold;
 }
 
 .about_hr {
@@ -65,7 +65,7 @@ th {
 }
 
 .footer_table {
-    padding: 50px 0px 50px 60px;
+    padding: 50px 0px 50px 100px;
     width: 600px;
 }
 
@@ -82,12 +82,28 @@ th {
     text-align: center;
 }
 
+.header_h1 {
+    padding: 20px 0px 20px 0px;
+}
+
 .main_contents {
     padding: 30px 0px 30px 30px;
 }
 
+.menu_div {
+    margin-left: 40px;
+}
+
+.menu_h3 {
+    padding: 20px 0px 20px 0px;
+}
+
 .menu_p {
-    margin: 30px 0px 0px 30px;
+    margin: 30px 0px 0px 0px;
+}
+
+.menu_table {
+    width: 700px;
 }
 
 .menu_tr:nth-child(2n) { /* :nth-child擬似クラス。class属性がmenu_trのタグの表の偶数行の背景色を変える */
