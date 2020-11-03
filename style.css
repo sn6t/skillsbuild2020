@@ -69,8 +69,13 @@ th {
     width: 600px;
 }
 
+.footer_td {
+    width: 160px;
+}
+
 .footer_tr td {
     color: #FFFFFF; /* white */
+    font-size: 1em;
 }
 
 .gallery_image {
