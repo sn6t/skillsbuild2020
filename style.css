@@ -5,24 +5,6 @@
     padding: 0px;
 }
 
-div.footer_table {
-    padding: 50px 0px 50px 60px;
-    width: 600px;
-}
-
-div.gallery_image {
-    text-align: center;
-}
-
-div.google_map {
-    padding: 30px 0px 0px 0px;
-    text-align: center;
-}
-
-div.main_contents {
-    padding: 30px 0px 30px 30px;
-}
-
 em {
     font-size: 20px;
     font-style: normal;
@@ -61,14 +43,6 @@ main {
     padding: 50px 0px 50px 0px;
 }
 
-p.about_mission {
-    text-align: center;
-}
-
-p.menu_p {
-    margin: 30px 0px 0px 30px;
-}
-
 section {
     padding: 0px 30px 50px 30px;
     width: 900px;
@@ -80,32 +54,64 @@ table {
     width: 700px;
 }
 
-td.price {
-    text-align: right;
-}
-
 th {
     background-color: #7B5544; /* coffee */
     color: #FFFFFF; /* white */
     text-align: center;
 }
 
-tr.footer_tr td {
+.about_mission {
+    text-align: center;
+}
+
+.footer_table {
+    padding: 50px 0px 50px 60px;
+    width: 600px;
+}
+
+.footer_tr td {
     color: #FFFFFF; /* white */
 }
 
-tr.menu_tr:nth-child(2n) { /* class属性がmenu_trの行の偶数行にのみ適用 */
+.gallery_image {
+    text-align: center;
+}
+
+.google_map {
+    padding: 30px 0px 0px 0px;
+    text-align: center;
+}
+
+.main_contents {
+    padding: 30px 0px 30px 30px;
+}
+
+.menu_p {
+    margin: 30px 0px 0px 30px;
+}
+
+.menu_tr:nth-child(2n) { /* :nth-child擬似クラス。class属性がmenu_trのタグの表の偶数行の背景色を変える */
     background-color: #FFFFF0; /* ivory */
 }
 
-ul.ul_header li {
+.price {
+    text-align: right;
+}
+
+.ul_header li {
     display: inline-block;
     height: 30px;
     width: 100px;
 }
 
-ul.ul_header li a {
+.ul_header li a {
     color: #FFFFFF; /* white */
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.ul_header li a:hover { /* :hover擬似クラス。class属性がul_headerのタグ内のliタグ内のaタグのリンクにマウスオーバーした時にフォント色を変える */
+    color: #FAEBD7; /* antiquewhite */
     font-weight: bold;
     text-decoration: none;
 }
