@@ -7,15 +7,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bitter&display=swap">
         <link rel="stylesheet" href="./style.css">
         <link rel="shortcut icon" href="./images/favicon.ico">
-        <script>
-            var imgChange = function(param) {
-                var source_src = param.src;
-                var source_alt = param.alt;
-                var target = document.getElementById("gallery_main");
-                target.setAttribute("src",source_src);
-                target.setAttribute("alt",source_alt);
-            }
-        </script>
+        <script src="./script.js"></script>
     </head>
     <body>
         <header>
@@ -32,9 +24,9 @@
             <section>
                 <h2><a id="about">About</a></h2>
                 <div class="main_contents">
-                    <hr>
+                    <hr class="about_hr">
                     <p class="about_mission"><em>“コーヒーを通して、やすらぎの一瞬を提供したい”</em></p>
-                    <hr>
+                    <hr class="about_hr">
                     <p>S.B.Cafe（エス・ビー・カフェ）は2020年11月に、東京・日本橋箱崎町にテイクアウト専門コーヒーショップとして誕生しました。</p>
                     <p>新しい生活様式が求められ、人と人との交流が制限され、これまで以上にストレスが溜まる毎日の中、バリスタとして何ができるのか・・・。それが私たちのお店の出発地点でした。</p>
                     <p>仕事や家事で忙しい一日の中で、コーヒーを買ってほっと一息つく。そんなやすらぎの一瞬を提供したいというのが私たちのお店の追い求める姿です。</p>
@@ -43,13 +35,11 @@
             <section>
                 <h2><a id="news">News</a></h2>
                 <div class="main_contents">
-                    <div>
-                        <ul>
-                            <li>2020/12/01: クリスマス限定キャンペーン開始！ドリンクメニューかフードメニューを一点以上ご購入いただいたお客さまに、クーポンをプレゼントします。</li>
-                            <li>2020/11/01: S.B.Cafeオープニングキャンペーン開始！11月1日から11月7日まで全メニューを500円割引でご提供します。</li>
-                            <li>2020/09/01: S.B.Cafeオープニングスタッフ（アルバイト・パート）募集。詳しくは<a href="https://www.yahoo.co.jp/">募集要項</a>をご確認ください。</li>
-                        </ul>
-                    </div>
+                    <ul>
+                        <li>2020/12/01: クリスマス限定キャンペーン開始！ドリンクメニューかフードメニューを一点以上ご購入いただいたお客さまに、クーポンをプレゼントします。</li>
+                        <li>2020/11/01: S.B.Cafeオープニングキャンペーン開始！11月1日から11月7日まで全メニューを500円割引でご提供します。</li>
+                        <li>2020/09/01: S.B.Cafeオープニングスタッフ（アルバイト・パート）募集。詳しくは<a href="https://www.yahoo.co.jp/">募集要項</a>をご確認ください。</li>
+                    </ul>
                 </div>
             </section>
             <section>
@@ -93,16 +83,14 @@
             <section>
                 <h2><a id="access">Access</a></h2>
                 <div class="main_contents">
-                    <div>
-                        <ul>
-                            <li>東京メトロ東西線／日比谷線 茅場町駅4番b出口 徒歩7分</li>
-                            <li>東京メトロ半蔵門線 水天宮前駅2番出口 徒歩3分</li>
-                            <li>東京メトロ日比谷線 人形町駅1番出口 徒歩12分</li>
-                            <li>都営浅草線 人形町駅A4またはA5出口 徒歩12分</li>
-                        </ul>
-                    </div>
+                    <ul>
+                        <li>東京メトロ東西線／日比谷線 茅場町駅4番b出口 徒歩7分</li>
+                        <li>東京メトロ半蔵門線 水天宮前駅2番出口 徒歩3分</li>
+                        <li>東京メトロ日比谷線 人形町駅1番出口 徒歩12分</li>
+                        <li>都営浅草線 人形町駅A4またはA5出口 徒歩12分</li>
+                    </ul>
                     <div class="google_map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.936939019163!2d139.78493511527603!3d35.678554713178656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188943ca555555%3A0xdacf3e7b25c10e6e!2zSUJN566x5bSO44OT44Or!5e0!3m2!1sja!2sjp!4v1604293716124!5m2!1sja!2sjp" width="800" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.936939019163!2d139.78493511527603!3d35.678554713178656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188943ca555555%3A0xdacf3e7b25c10e6e!2zSUJN566x5bSO44OT44Or!5e0!3m2!1sja!2sjp!4v1604293716124!5m2!1sja!2sjp" width="800" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                     </div>
                 </div>
             </section>
@@ -114,7 +102,7 @@
                     <tr class="footer_tr"><td>住所</td><td>〒103-xxxx 東京都中央区日本橋箱崎町xx番xx号</td></tr>
                     <tr class="footer_tr"><td>電話番号</td><td>03-xxxx-xxxx</td></tr>
                     <tr class="footer_tr"><td>営業時間</td><td>月曜日〜土曜日 07:00〜19:00</td></tr>   
-                    <tr class="footer_tr"><td>定休日</td><td>毎週日曜日</td></tr>
+                    <tr class="footer_tr"><td>定休日</td><td>日曜日</td></tr>
                 </table>
             </div>
         </footer>

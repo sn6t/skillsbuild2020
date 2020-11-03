@@ -22,11 +22,6 @@ header {
     padding: 0px 30px 0px 30px;
 }
 
-hr {
-    border: 1px #7B5544 dashed;
-    margin: 30px 0px 30px 0px;
-}
-
 h1 {
     color: #FFFFFF; /* white */
     font-size: 42px;
@@ -58,6 +53,11 @@ th {
     background-color: #7B5544; /* coffee */
     color: #FFFFFF; /* white */
     text-align: center;
+}
+
+.about_hr {
+    border: 1px #7B5544 dashed;
+    margin: 30px 0px 30px 0px;
 }
 
 .about_mission {
