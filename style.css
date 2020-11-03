@@ -1,8 +1,8 @@
 * { 
-    font-family: 'Bitter','ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','ヒラギノ角ゴ W3', 'メイリオ', system-ui;
-    padding: 0px;
+    color: #3C1321; /* dark chocolate */
+    font-family: 'Bitter','ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','ヒラギノ角ゴ W3', 'メイリオ', system-ui; /* BitterはWebフォント。HTMLでGoogle Fontsを参照して使用 */
     margin: 0px;
-    color: #333300;
+    padding: 0px;
 }
 
 div.footer_table {
@@ -15,17 +15,12 @@ div.gallery_image {
 }
 
 div.google_map {
-    text-align: center;
     padding: 30px 0px 0px 0px;
+    text-align: center;
 }
 
 div.main_contents {
     padding: 30px 0px 30px 30px;
-}
-
-div.main_div {
-    width: 900px;
-    padding: 50px 0px 50px 0px;
 }
 
 em {
@@ -35,23 +30,23 @@ em {
 }
 
 footer {
-    background-color: rgb(96,81,56);
+    background-color: #7B5544; /* coffee */
     padding: 0px 30px 0px 30px;
 }
 
 header {
-    background-color: rgb(96,81,56);
+    background-color: #7B5544; /* coffee */
     height: 130px;
     padding: 0px 30px 0px 30px;
 }
 
 hr {
-    border: 1px rgb(96,81,56) dashed;
+    border: 1px #7B5544 dashed;
     margin: 30px 0px 30px 0px;
 }
 
 h1 {
-    color: #FFFFFF;
+    color: #FFFFFF; /* white */
     font-size: 42px;
     padding: 20px 0px 20px 0px;
 }
@@ -59,6 +54,11 @@ h1 {
 h3 {
     font-size: 22px;
     padding: 20px 0px 20px 0px;
+}
+
+main {
+    background-color: #FAEBD7; /* antiquewhite */
+    padding: 50px 0px 50px 0px;
 }
 
 p.about_mission {
@@ -70,14 +70,14 @@ p.menu_p {
 }
 
 section {
-    background-color: antiquewhite;
-    padding: 0px 30px 0px 30px;
+    padding: 0px 30px 50px 30px;
+    width: 900px;
 }
 
 table {
-    width: 700px;
+    border: 1px solid #7B5544; /* coffee */
     margin-left: 40px;
-    border: 1px solid rgb(96,81,56);
+    width: 700px;
 }
 
 td.price {
@@ -85,27 +85,27 @@ td.price {
 }
 
 th {
+    background-color: #7B5544; /* coffee */
+    color: #FFFFFF; /* white */
     text-align: center;
-    background-color: rgb(96,81,56);
-    color: #FFFFFF;
 }
 
 tr.footer_tr td {
-    color: #FFFFFF;
+    color: #FFFFFF; /* white */
 }
 
-tr.menu_tr:nth-child(2n) {
-    background-color: ivory;
+tr.menu_tr:nth-child(2n) { /* class属性がmenu_trの行の偶数行にのみ適用 */
+    background-color: #FFFFF0; /* ivory */
 }
 
 ul.ul_header li {
     display: inline-block;
-    width: 100px;
     height: 30px;
+    width: 100px;
 }
 
 ul.ul_header li a {
-    color: #FFFFFF;
+    color: #FFFFFF; /* white */
     font-weight: bold;
     text-decoration: none;
 }
