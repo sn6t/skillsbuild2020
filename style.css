@@ -12,7 +12,6 @@ footer {
 
 header {
     background-color: #7B5544; /* coffee */
-    height: 130px;
     padding: 0px 30px 0px 30px;
 }
 
@@ -132,6 +131,4 @@ th {
 
 .ul_header li a:hover { /* :hover擬似クラス。class属性がul_headerのタグ内のliタグ内のaタグのリンクにマウスオーバーした時にフォント色を変える */
     color: #FAEBD7; /* antiquewhite */
-    font-weight: bold;
-    text-decoration: none;
 }
