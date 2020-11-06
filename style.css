@@ -5,12 +5,7 @@
     padding: 0px;
 }
 
-footer {
-    background-color: #7B5544; /* coffee */
-    padding: 0px 30px 0px 30px;
-}
-
-header {
+footer, header {
     background-color: #7B5544; /* coffee */
     padding: 0px 30px 0px 30px;
 }
@@ -71,7 +66,7 @@ th {
     width: 160px;
 }
 
-.footer_tr td {
+.footer_tr > td {
     color: #FFFFFF; /* white */
     font-size: 1em;
 }
@@ -116,18 +111,18 @@ th {
     text-align: right;
 }
 
-.ul_header li {
+.ul_header > li {
     display: inline-block;
     height: 30px;
     width: 100px;
 }
 
-.ul_header li a {
+.ul_header > li > a {
     color: #FFFFFF; /* white */
     font-weight: bold;
     text-decoration: none;
 }
 
-.ul_header li a:hover { /* :hover擬似クラス。class属性がul_headerのタグ内のliタグ内のaタグのリンクにマウスオーバーした時にフォント色を変える */
+.ul_header > li > a:hover { /* :hover擬似クラス。class属性がul_headerのタグ内のliタグ内のaタグのリンクにマウスオーバーした時にフォント色を変える */
     color: #FAEBD7; /* antiquewhite */
 }
