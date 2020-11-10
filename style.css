@@ -103,7 +103,7 @@ th {
     width: 700px;
 }
 
-.menu_tr:nth-child(2n) { /* :nth-child擬似クラス。class属性がmenu_trのタグの表の偶数行の背景色を変える */
+.menu_tr:nth-child(2n+1) { /* :nth-child擬似クラス。class属性がmenu_trのタグの表の奇数行の背景色を変える */
     background-color: #FFFFF0; /* ivory */
 }
 
