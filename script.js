@@ -1,4 +1,4 @@
-const galleryMainImageChange = (source_src, source_alt) => {
+const galleryMainImageChange = (source_src,source_alt) => {
     /*
       この関数の呼び出し元のHTMLタグのsrc属性値とalt属性値を引数で受け取り、
       <img id="gallery_main">のsrc属性値とalt属性値を置き換えることで
