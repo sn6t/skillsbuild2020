@@ -72,9 +72,13 @@ th {
 
 .footer_tr > td > address {
     color: inherit; /* 親要素（.footer_tr > td）のプロパティを継承 */
-    font-size: inherit; /* 親要素（.footer_tr > td）のプロパティを継承 */
     font-style: normal;
 }
+
+.footer_tr > td > time {
+    color: inherit; /* 親要素（.footer_tr > td）のプロパティを継承 */
+}
+
 
 .gallery_image {
     text-align: center;
