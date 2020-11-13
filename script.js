@@ -15,8 +15,8 @@
  * そのような画像を使いたい場合は、画像ファイル自体をトリミングなどして縦横の
  * 比率をメイン画像と揃えるか、この関数の中身を修正するか検討する必要があります
  */
-const galleryMainImageChange = (source_src,source_alt) => {
+const galleryMainImageChange = (source_src = "", source_alt = "") => {
     const target = document.getElementById("gallery_main"); // 「id="gallery_main"」のHTML要素を変数targetに代入する
-    target.setAttribute("src",source_src); // target変数のHTML要素（「id="gallery_main」と定義されたHTML要素）のsrc属性の値をsource_srcの値で置き換える
-    target.setAttribute("alt",source_alt); // target変数のHTML要素（「id="gallery_main」と定義されたHTML要素）のalt属性の値をsource_altの値で置き換える
+    target.setAttribute("src", source_src); // target変数のHTML要素（「id="gallery_main」と定義されたHTML要素）のsrc属性の値をsource_srcの値で置き換える
+    target.setAttribute("alt", source_alt); // target変数のHTML要素（「id="gallery_main」と定義されたHTML要素）のalt属性の値をsource_altの値で置き換える
 }
