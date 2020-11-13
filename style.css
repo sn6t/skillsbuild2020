@@ -1,13 +1,13 @@
 * { 
     color: #3C1321; /* dark chocolate */
     font-family: 'Bitter','ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','ヒラギノ角ゴ W3', 'メイリオ', system-ui; /* BitterはWebフォント。HTMLでGoogle Fontsを参照して使用 */
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 footer, header {
     background-color: #7B5544; /* coffee */
-    padding: 0px 30px 0px 30px;
+    padding: 0 30px; /* top & bottom 0px | right & left 30px */
 }
 
 h1 {
@@ -25,11 +25,11 @@ h3 {
 
 main {
     background-color: #FAEBD7; /* antiquewhite */
-    padding: 50px 0px 50px 0px;
+    padding: 50px 0; /* top & bottom 50px | right & left 0px */
 }
 
 section {
-    padding: 0px 30px 50px 30px;
+    padding: 0 30px 50px 30px; /* top 0px | right 30px | bottom 50px | left 30px */
     width: 900px;
 }
 
@@ -52,13 +52,13 @@ th {
 .about_mission {
     border-bottom: 1px #7B5544 dashed;  /* coffee */
     border-top: 1px #7B5544 dashed;  /* coffee */
-    margin: 30px 0px 30px 0px;
-    padding: 30px 0px 30px 0px;
+    margin: 30px 0; /* top & bottom 30px | right & left 0px */
+    padding: 30px 0; /* top & bottom 30px | right & left 0px */
     text-align: center;
 }
 
 .footer_table {
-    padding: 50px 0px 50px 100px;
+    padding: 50px 0 50px 100px; /* top 50px | right 0px | bottom 50px | left 100px */
     width: 600px;
 }
 
@@ -68,7 +68,6 @@ th {
 
 .footer_tr > td {
     color: #FFFFFF; /* white */
-    font-size: 1em;
 }
 
 .gallery_image {
@@ -76,15 +75,15 @@ th {
 }
 
 .google_map {
-    padding: 30px 0px 0px 30px;
+    padding: 30px 0 0 30px; /* top 30px | right 0px | bottom 0px | left 30px */
 }
 
 .header_h1 {
-    padding: 20px 0px 20px 0px;
+    padding: 20px 0; /* top & bottom 20px | right & left 0px */
 }
 
 .main_contents {
-    padding: 30px 0px 30px 30px;
+    padding: 30px 0 30px 30px; /* top 30px | right 0px | bottom 30px | left 30px */
 }
 
 .menu_div {
@@ -92,11 +91,11 @@ th {
 }
 
 .menu_h3 {
-    padding: 20px 0px 20px 0px;
+    padding: 20px 0; /* top & bottom 20px | right & left 0px */
 }
 
 .menu_p {
-    margin: 30px 0px 0px 0px;
+    margin-top: 30px;
 }
 
 .menu_table {
@@ -112,7 +111,7 @@ th {
 }
 
 .ul_header > li {
-    display: inline-block;
+    display: inline-block; /* ナビゲーションのリストをヘッダー内で横方向に並べて表示させる */
     height: 30px;
     width: 100px;
 }
@@ -120,7 +119,7 @@ th {
 .ul_header > li > a {
     color: #FFFFFF; /* white */
     font-weight: bold;
-    text-decoration: none;
+    text-decoration: none; /* リンクの下線を付けない */
 }
 
 .ul_header > li > a:hover { /* :hover擬似クラス。class属性がul_headerのタグ内のliタグ内のaタグのリンクにマウスオーバーした時にフォント色を変える */
